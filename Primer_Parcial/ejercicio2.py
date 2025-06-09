@@ -52,9 +52,9 @@ def menu():
 Menú de opciones:
 1. Listado ordenado por nombre de los personajes
 2. Posición de The Thing y Rocket Raccoon
-3. Listar todos los villanos
-4. Villanos en cola y los que aparecieron antes de 1980
-5. Listar superhéroes que comienzan con Bl, G, My, W
+3. Listado de todos los villanos
+4. Cola de villanos y listado de los que aparecieron antes de 1980
+5. Listado de superhéroes que comienzan con Bl, G, My, W
 6. Listado ordenado por nombre real
 7. Listado ordenado por fecha de aparición
 8. Modificar nombre real de Ant Man a Scott Lang
