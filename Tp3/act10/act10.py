@@ -35,11 +35,11 @@ def eliminarPorApp(queue: Queue, app = "Facebook"):
             queue.move_to_end()
 
 def mostrarAppMsj(queue: Queue, app: str = "Twitter", msj: str = "Python"):
-    for i in range(queue.size()):
-        notif = queue.attention()
-        if notif.getApp().upper().find(app.upper()) != -1 and notif.getMensaje().upper().find(msj.upper()) != -1:
-            print(notif)
-        queue.arrive(notif)
+		for i in range(queue.size()):
+				notif = queue.attention()
+				if notif.getApp().upper().find(app.upper()) != -1 and notif.getMensaje().upper().find(msj.upper()) != -1:
+						print(notif)
+				queue.arrive(notif)
 
 def pilaHrs(queue: Queue, hrs1: time = time(11, 43), hrs2: time = time(15, 57)):
     stack = Stack()
